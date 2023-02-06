@@ -1,0 +1,82 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 50px 160px;
+  grid-template-rows: 408px 408px;
+}
+
+.elementos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.permite {
+  grid-column: 2;
+}
+
+body {
+  font-family: arial;
+  background: #f7f7f7;
+  max-height: 1000px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.titulo {
+  margin: 50px;
+  text-align: center;
+}
+
+.botao {
+  color: black;
+  text-decoration: none;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.texto {
+  margin-top: 50px;
+}
+
+.descricao {
+  display: inline-block;
+  background: white;
+  border-radius: 4px;
+  text-align: right;
+  padding: 50px;
+}
+
+.ver {
+  display: inline-block;
+  color: white;
+  background: red;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.vantagens {
+  color: #c6c6c6;
+  text-align: right;
+  font-size: 30px;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+p {
+  font-size: 19px;
+}
+h1 {
+  font-size: 40px;
+}
